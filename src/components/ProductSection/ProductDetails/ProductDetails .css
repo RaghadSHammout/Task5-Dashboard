@@ -3,3 +3,25 @@
     font-size: 60px;
     font-weight: 600;
 }
+
+.product-img-responsive {
+  max-width: 100%;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .product-img-responsive {
+    max-height: 200px;
+  }
+  .product-details {
+    font-size: 1.2rem !important;
+  }
+  .product-name {
+    font-size: 1.5rem !important;
+  }
+}
