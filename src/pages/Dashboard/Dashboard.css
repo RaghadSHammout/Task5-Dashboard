@@ -1,0 +1,49 @@
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 270px; 
+}
+
+.main-content {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-section{
+  margin: 32px 109px 80px 109px !important;
+}
+.Offcanvas{
+  width: 100%;
+  background-color: #F2EAE1;
+}
+
+.custom-loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.6);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #ffb30072;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
